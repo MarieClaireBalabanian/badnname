@@ -1,5 +1,5 @@
-var dotenv     = require('dotenv').config({silent: true}),
-    express    = require('express'),
+require('dotenv').config({silent: true});
+var    express    = require('express'),
     app        = express(),
     exphbs     = require('express-handlebars'),
     bodyParser = require('body-parser'),
